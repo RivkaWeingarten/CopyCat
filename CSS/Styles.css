@@ -1,0 +1,93 @@
+
+    .header1{
+        background-color: darkgrey;
+    }
+    
+.header1 ul{
+    display: flex;
+    justify-content: right;
+}
+
+.header1 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+}
+
+.nav{
+background-color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+   
+
+}
+nav img{
+    position: relative;
+    text-align: center;
+    width: 55%;
+    margin: 5%;
+}
+
+.hero-img img{
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height:80vh;
+    z-index: -1;
+   
+
+}
+.nav-item:hover{
+    color:orange;
+    text: emphasis 100px;
+}
+
+
+.hero-img {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* position: absolute;
+    top: 0px;
+    left: 16px; */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  p, h2{
+    text-align: center;
+  }
+
+  .diamond-sawed{
+   width:100vw;
+    height:35vh;
+  }
+
+  .col li{
+    list-style: none;
+
+  }
+  .footer{
+background-color: darkgrey;
+color:white;
+margin:0;
+margin-right: 0%;
+  }
+ 
